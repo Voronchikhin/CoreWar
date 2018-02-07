@@ -77,7 +77,7 @@ void CaravanPage::on_easterEGG_clicked()
         ui->checkBox_2->isChecked()&&
         ui->checkBox_3->isChecked() ) {
         QGraphicsScene *scene = new QGraphicsScene;
-        scene->addPixmap(QPixmap("test.jpeg"));
+        scene->addPixmap(QPixmap("../test.jpeg"));
         scene->addText("test");
         ui->graphicsView->setScene(scene);
         sc->setWidget(ui->graphicsView);

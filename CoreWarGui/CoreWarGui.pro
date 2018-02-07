@@ -11,8 +11,8 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = CoreWarGui
 TEMPLATE = app
 QMAKE_CXXFLAGS += -std=c++11
-INCLUDEPATH += /home/maxim/workspace/16208_voronchikhin/16208_voronchikhin/CoreWar/include
-INCLUDEPATH += /home/maxim/workspace/16208_voronchikhin/16208_voronchikhin/CoreWar/src
+INCLUDEPATH += ../CoreWar/include
+INCLUDEPATH += ../CoreWar/src
 SOURCES += main.cpp\
         mainwindow.cpp \
     renderarea.cpp \
