@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CaravanPage</class>
+ <widget class="QWidget" name="CaravanPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QWidget" name="caravanPage" native="true">
+     <layout class="QGridLayout" name="gridLayout_3" rowminimumheight="0" columnminimumwidth="0">
+      <item row="0" column="0">
+       <widget class="QWidget" name="widget" native="true">
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="1" column="0">
+          <widget class="QCheckBox" name="checkBox_2">
+           <property name="text">
+            <string>быстро</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QCheckBox" name="checkBox_3">
+           <property name="text">
+            <string>без костылей</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QCheckBox" name="checkBox">
+           <property name="text">
+            <string>без багов</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="ScaleArea" name="widget_2" native="true"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QPushButton" name="easterEGG">
+           <property name="text">
+            <string>принести лабу</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QGraphicsView" name="graphicsView"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ScaleArea</class>
+   <extends>QWidget</extends>
+   <header>scalearea.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
